@@ -38,3 +38,4 @@ opt-level     = 3
 
 [profile.dev]
 split-debuginfo = "unpacked"
+
