@@ -29,7 +29,7 @@ jobs:
           components: rustfmt, clippy
           override: true
 
-      - name: Install Dependencies 
+      - name: Install Dependencies (for ubuntu)
         if: matrix.os == 'ubuntu-latest'
         run: |
             sudo apt-get install libssl-dev
